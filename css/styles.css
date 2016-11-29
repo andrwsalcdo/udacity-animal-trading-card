@@ -1,0 +1,61 @@
+/* add your CSS here */
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bigBox {
+  border: 1px solid #697681;
+  width: 300px;
+  padding: 10px;
+  font-size: 14px;
+  background-color: #80643f;
+  border-radius: 8px;
+  /*background-image: url(Star Wars picture, any tips for background images);*/
+}
+h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  color: black;
+}
+.smallBox {
+  background-color: #ba8f4c;
+  font-size: 12px
+  /*I don't understand this padding,
+  but if i leave it blank, the border disappears.
+  I thought the padding would affect the text*/
+  /*padding:6px;*/
+  /*Really long time to find the right color. Advice?*/
+  border: 1px solid;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.card-img{
+  width:300px;
+  padding-bottom: 7px;
+}
+.fact {
+  font-style: italic;
+  font-size: 14px;
+  padding:5px;
+  padding-top: 10px;
+}
+.list{
+  list-style-type: none;
+  padding:5px;
+  font-size: 14px;
+}
+/*Are there other styling ways to solve this problem?(span)
+Or is the most 'simple'? Obviously simple is better. */
+span {
+  font-weight:bold;
+}
+.descript {
+  padding-right: 5px;
+  padding-left: 5px;
+  font-size: 14px;
+  padding-bottom: 15px;
+}
+/*Are there too many styling elements?
+Could have I consolidated some of these? */
